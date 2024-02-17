@@ -8,7 +8,7 @@ function smallBoom() {
 
 function fire(particleRatio, opts) {
 	confetti(Object.assign({}, { origin: { y: 0.7 } }, opts, {
-		particleCount: Math.floor(200 * particleRatio)
+		particleCount: Math.floor(320 * particleRatio)
 	}));
 }
 
